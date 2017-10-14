@@ -2,6 +2,6 @@
 <p>
 	<%= @page.body %>
 </p>
-<p><%= link_to 'Back', '/pages/' %><span>&nbsp; &nbsp; &nbsp; &nbsp;</span/><%= link_to 'Edit' , '/pages/:id/edit'%></p>
+<p><%= link_to 'Back', '/pages/' %><span>&nbsp; &nbsp; &nbsp; &nbsp;</span/><%= link_to 'Edit' , edit_page_path(@page) ,method: :get%><span>&nbsp; &nbsp; &nbsp; &nbsp;</span/><%= link_to 'Delete' ,@page, method: :delete %></p>
 
 

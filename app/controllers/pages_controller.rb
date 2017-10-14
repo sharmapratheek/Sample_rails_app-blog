@@ -27,6 +27,10 @@ class PagesController < ApplicationController
 		redirect_to @page
 	end
 
+	def delete
+		@page = Page.find(params[:id])	
+		@page.destroy
+	end
 
 	private
 
