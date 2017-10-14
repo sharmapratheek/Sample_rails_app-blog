@@ -1,24 +1,11 @@
-# README
+ruby 2.3.1p112 (2016-04-26) [x86_64-linux-gnu]
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+So this a simple Blog app Which can
+-create a new post
+-show the new post in the index page
+-Edit an existing post
+-Update that post
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
