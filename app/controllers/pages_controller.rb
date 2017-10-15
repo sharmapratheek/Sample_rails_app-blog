@@ -24,7 +24,7 @@ class PagesController < ApplicationController
 	def update
 		@page = Page.find(params[:id]) 
 		@page.update(page_params)
-		redirect_to @page
+		redirect_to '/pages/'
 	end
 
 	def delete
